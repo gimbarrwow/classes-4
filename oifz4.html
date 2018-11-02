@@ -1,0 +1,97 @@
+1-git config --global user.mail:
+        this command is used to configure your global git account
+        for example "git config --global user.email mdoisl@st.amu.edu.pl
+
+2-git diff --staged:
+        This command compares your staged changes to your last commit 
+        for example:
+		git diff -staged
+			It will only show changes to files in the staged area.
+		
+
+3-git checkout -b "branch":
+	This command is used for creating a new branch and checking out the new branch.
+	This command does the following for you:
+		git branch "branch"
+		git checkout "branch"
+	for example:
+		$ git checkout -b exercise
+		Switched to a new branch 'exercise'
+
+4-git log --graph --all:
+	This command shows the commit logs with a text based graphical represntation on the left hand side of the output. --all will include commits from all branches, including refs/tags and refs/remotes.
+	for example: 
+		commit 8af50f7bf7265dd50d0e25d1f9074d2840bee39e (HEAD -> master, origin/master, origin/HEAD)
+|\  Merge: 2bbb6e5 8ce239a
+| | Author: joannasiwek <44545474+joannasiwek@users.noreply.github.com>
+| | Date:   Tue Oct 30 20:50:31 2018 +0100
+| | 
+| |     Merge pull request #7 from rubenperez98/patch-1
+| |     
+| |     rubenperez98 pull request
+| | 
+| * commit 8ce239aef01dcbbd5e3d35c616df3730f1718c76
+| | Author: rubenperez98 <41643877+rubenperez98@users.noreply.github.com>
+| | Date:   Tue Oct 30 17:24:27 2018 +0100
+| | 
+| |     Update index
+| |   
+* |   commit 2bbb6e520561713434b5719ae31490fbaf64f04b
+|\ \  Merge: a78d08e 08a28b0
+| | | Author: joannasiwek <44545474+joannasiwek@users.noreply.github.com>
+| | | Date:   Tue Oct 30 20:35:20 2018 +0100
+| | | 
+| | |     Merge pull request #8 from joannasiwek/revert-3-master
+| | |     
+| | |     Revert "Update index s432813"
+| | | 
+| * | commit 08a28b0247afcad60de16a6ca283d63e9f487b90 (origin/revert-3-master)
+|/ /  Author: joannasiwek <44545474+joannasiwek@users.noreply.github.com>
+| |   Date:   Tue Oct 30 20:34:43 2018 +0100
+| |   
+| |       Revert "Update index s432813"
+| |   
+* |   commit a78d08e3bdb62c8d2292e2af90fa28cede3a0d9e
+|\ \  Merge: 056ff32 a336077
+| |/  Author: joannasiwek <44545474+joannasiwek@users.noreply.github.com>
+|/|   Date:   Tue Oct 30 20:28:35 2018 +0100
+| |   
+| |       Merge pull request #3 from BohdanBakhlul/master
+| |       
+| |       Update index s432813
+| | 
+| * commit a3360773f774c680d2d9ece25ac04cb3ef7d31db
+|/  Author: BohdanBakhlul <43843892+BohdanBakhlul@users.noreply.github.com>
+|   Date:   Tue Oct 30 16:55:35 2018 +0100
+|   
+|       Update index
+|   
+*   commit 056ff322d19f1e282d5bfd3a0b35be8a07a2e7e5
+|\  Merge: dc0029c e6c6399
+| | Author: joannasiwek <44545474+joannasiwek@users.noreply.github.com>
+| | Date:   Tue Oct 30 13:32:29 2018 +0100
+| | 
+| |     Merge pull request #2 from c00lerxo/master
+| |     
+| |     Adding basic page division, codebox styling and git checkout -b command
+| | 
+| * commit e6c63996395dae31e5a04b27b3653ab3269c70f2
+| | Author: Cooler <szymonkuleczka98@gmail.com>
+| | Date:   Mon Oct 29 18:13:19 2018 +0100
+| | 
+| |     Merge codebox and git_checkout_command
+| |   
+| *   commit d90d0a64e2218230dda481b2f7439f3748d3ffdb
+| |\  Merge: 0ad4b0d d73c2e5
+
+
+5-git branch -d "branch"
+	This command Deletes a branch. The branch must be fully merged in its upstream branch, or in HEAD if no upstream was set with --track or --set-upstream.
+	for example:
+		git branch -d exercise
+
+6-git fetch "remote" "branch"
+	
+	The git fetch command downloads commits, files, and refs from a remote repository into your local repo.
+	for example :
+		git fecth origin exercise
