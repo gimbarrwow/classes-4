@@ -29,7 +29,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       when we are about to work on login system, before start we should type in console: <br />
       <div class="codebox">
         <code>
-          $ git checkout -b login-system
+          <font color="green">$</font> git checkout -b login-system
         </code>
       </div> <br />
       And then, we are good to go, as every change that we'll make from that point before merging or checking out
@@ -40,14 +40,15 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       Note that <br />
       <div class="codebox">
       <code>
-        $ git checkout -b login-system
+        <font color="green">$</font> git checkout -b login-system
       </code>
       </div> <br />
       and <br />
       <div class="codebox">
         <code>
-          $ git branch login-system
-          $ git checkout login-system
+          <font color="green">$</font> git branch login-system
+			<br/>
+          <font color="green">$</font> git checkout login-system
         </code>
       </div> <br />
       are doing exactly the same thing (but the second one in two steps).
@@ -62,13 +63,13 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       --no-merged. <br />
       <div class="codebox">
         <code>
-          $ git branch --merged
+          <font color="green">$</font> git branch --merged
         </code>
       </div> <br />
       Example:  <br />
       <div class="codebox">
       <code>
-        $ git branch --merged
+        <font color="green">$</font> git branch --merged
 		* master
       </code>
       </div> <br />
