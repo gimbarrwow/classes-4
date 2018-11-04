@@ -1,0 +1,63 @@
+<head>
+<h1>
+Git 
+</h1>
+</head>
+
+<body>
+<h1>
+git config --global user.name ""
+</h1>
+<h3>
+Assinged your name to all git repositories  in computer. 
+</h3>
+
+
+<h1>
+git reset HEAD
+</h1>
+<h3>
+
+rollback to the latest confirmed version
+</h3>
+
+<h1>
+gitk -all
+</h1>
+<h3>
+show all branches in the graphical interface and it`s changes
+</h3>
+
+
+<h1>
+git branch --merged
+</h1>
+<h3>
+something do with branches, for ex. create or delete, if we use "--merged" - only branches merged into the named commit
+</h3>
+
+
+<h1>
+git branch "branch" "commit hash"
+</h1>
+<h3>
+create or delete branch and instantly commits it by hashing
+</h3>
+
+
+
+<h1>
+git pull "remote" "branch"
+</h1>
+<h3>
+extracts the specified copy of the panels of the selected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation
+</h3>
+
+
+
+
+
+
+
+
+</body>
