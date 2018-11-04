@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
   <h1>Git Manual</h1>
   <div id="commands">
     <ul>
-      <li><strong>git checkout -b</strong></li><br />
+      <li><strong>git checkout -b "branch"</strong></li><br />
       This command creates a new branch in our local Git repository and then switches to it. It is really
       helpful in dividing our work - in most cases, we use model 'branch-per-feature', which means that
       we create a new branch for every feature we're currently working at. For example,
@@ -75,7 +75,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       </div> <br />
     </ul>
     <ul>
-      <li><strong>git diff</strong></li><br />
+      <li><strong>git diff --staged</strong></li><br />
       Diffing is a function that takes two input data sets and outputs
       the changes between them. Git diff is a multi-use Git command that 
       when executed runs a diff function on Git data sources. These data
@@ -213,8 +213,25 @@ If you are sure you want to delete it, run 'git branch -D test'.</br></code>
         <br>
       </code>
       </div>
+    </ul>	
+		
+	<ul>
+      <li><strong>git reset HEAD</strong></li><br />
     </ul>
-  </div>
+	
+	<ul>
+      <li><strong>gitk -all</strong></li><br />
+    </ul>
+	
+	<ul>
+      <li><strong>git branch "branch" "commit hash"</strong></li><br />
+    </ul>
+		
+	<ul>
+      <li><strong>git pull "remote" "branch"</strong></li><br />
+    </ul>
+		
+  </div>		  
 </div>
 </body>
 </html>
