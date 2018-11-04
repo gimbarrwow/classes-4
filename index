@@ -159,7 +159,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
 
 When you commit in Git, Git stores a commit object that contains a pointer to the snapshot of the content you staged, the author and message metadata, and zero or more pointers to the commit or commits that were the direct parents of this commit: zero parents for the first commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or more branches.
 <br></br>
-<br><i>As u can se below, this command creates a branch called test. By default the main branch is called master.</i></br>
+<br><i>As you can see below, this command creates a branch called test. By default the main branch is called master.</i></br>
   <br></br>
       <div class="codebox">
         <code>
@@ -204,7 +204,7 @@ If you are sure you want to delete it, run 'git branch -D test'.</br></code>
           <font color="green">$</font> git fetch remotename
 <br><font color="green">#</font> Fetches updates made to a remote repository</br>
         </code>
-      </div> <br />But it goes more far, you can even specify a specific branch by <br />
+      </div> <br />But it goes further, you can even specify a specific branch by <br />
       <div class="codebox">
       <code>
         <font color="green">$</font> git fetch remotename branchname
