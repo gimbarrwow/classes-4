@@ -208,7 +208,11 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li>git branch "branch" "commit hash"</li>
 
       <li>git pull "remote" "branch"</li>
-
+       <div class="codebox">
+      <code>
+        <font color="red">$</font> git reset -HEAD 
+      </code>
+      </div>
     </ul>
   </div>
 </div>
