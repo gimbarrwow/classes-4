@@ -9,7 +9,7 @@ Requirements:
  * The answer should have the form of a one-file HTML
  * All commands from the list below have to be included (description, use and exmple)
  * The file should be gramatically correct
-    
+
 How to do it:
 
  * Each student creates their own copy of the repository (fork)
@@ -31,8 +31,8 @@ The list of commands to describe:
    * git branch --merged
    * git branch "branch" "commit hash"
    * git pull "remote" "branch"
-        
- * Gruoup Monday 15.30
+
+ * Group Monday 15.30
    * git config --global user.email ""
    * git diff --staged
    * git checkout -b "branch"
@@ -47,4 +47,3 @@ The list of commands to describe:
    * git push "remote" "branch"
    * git log "branch" --not "branch"
    * git bisect (start, bad, good, reset)
-
