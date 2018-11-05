@@ -220,14 +220,14 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li>gitk -all
       
       show all branches in the graphical interface and it`s changes</li>
-
-      <li>git pull "remote" "branch"</li>
-       <div class="codebox">
-      <code>
-        <font color="red">$</font> git reset -HEAD 
-      </code>
+     <li>git pull "remote" "branch"</li>
+	  Fetch the specified remotes copy of the "branch" and immediately merge it into the local copy.
+		"remote" parameter can be either a URL or name of a remote. <br>
+		<div class="codebox">
+        <code>
+          <font color="green">$</font> git pull "remote" "branch"
+        </code>
       </div>
-
       <li>git branch "branch" "commit hash"
       
       create or delete branch and instantly commits it by hashing</li>
