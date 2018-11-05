@@ -33,7 +33,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
     li {
         margin-left: -1em;
         font-size: 1.1em;
-        font-weight: bold;
+        font-weight: normal,
         list-style-type: none;
         line-height: 2.5em;
     }
@@ -44,7 +44,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
 
     .warning {
         font-size: 1.1em;
-        font-weight: bold;
+        font-weight: normal;
         color: #a33a2a;
     }
 
@@ -227,7 +227,6 @@ This shows your other branch. Because it contains work that is NOT merged in yet
 
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
-
     </ul>
   </div>
 </div>
