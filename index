@@ -228,7 +228,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
 
-    </ul>
+    </u
   </div>
 </div>
 </body>
