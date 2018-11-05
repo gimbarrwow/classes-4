@@ -201,8 +201,8 @@ This shows your other branch. Because it contains work that is NOT merged in yet
         <br><font color="green">#</font> Fetches updates made to a remote branch in a repository</br>
       </code>
       </div>
-      <li>git reset HEAD</li>
-
+      <li>git reset HEAD - makes your current branch back to point at SOME-COMMIT </li>
+		
       <li>gitk -all</li>
 
       <li>git branch "branch" "commit hash"</li>
