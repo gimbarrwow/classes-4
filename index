@@ -61,7 +61,6 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
 
       when we are about to work on login system, before start we should type in console:
       $ git checkout -b login-system
-      
       <div class="codebox">
         <code>
           <font color="green">$</font> git checkout -b login-system
@@ -221,7 +220,6 @@ This shows your other branch. Because it contains work that is NOT merged in yet
 
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
-
     </ul>
   </div>
 </div>
