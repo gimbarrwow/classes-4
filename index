@@ -214,12 +214,20 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       
       show all branches in the graphical interface and it`s changes</li>
 
+      <li>git pull "remote" "branch"</li>
+       <div class="codebox">
+      <code>
+        <font color="red">$</font> git reset -HEAD 
+      </code>
+      </div>
+
       <li>git branch "branch" "commit hash"
       
       create or delete branch and instantly commits it by hashing</li>
 
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
+
     </ul>
   </div>
 </div>
