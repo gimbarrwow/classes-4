@@ -179,6 +179,31 @@ This shows your other branch. Because it contains work that is NOT merged in yet
     <code><font color="green">$</font> git branch -d test
     <br><font color="red">error:</font> The branch '<font color="blue">test</font>' is not fully merged. If you are sure you want to delete it, run 'git branch -D test'.</br></code>
 </div>
+<ul>
+      <li><strong>git config --global user.name ""</strong></li><br />
+      Setting your Git username for every repository on your computer.  <br />
+      <div class="codebox">
+        <code>
+          $ git config --global user.name ""
+        </code>
+      </div> <br />
+      Example:  <br />
+      <div class="codebox">
+      <code>
+        $ git config --global user.name "Bogdan"
+      </code>
+      </div> <br />
+    </ul>
+      <ul>
+      <li><strong>gitk -all</strong></li><br />
+      gitk - The Git repository browser. Displays changes in a repository or a selected set of commits. This includes visualizing the commit graph, showing information related to each commit, and the files in the trees of each revision.
+--all - Show all refs (branches, tags, etc.).   <br />
+      <div class="codebox">
+        <code>
+        $  gitk -all
+        </code>
+      </div> <br /><br />
+</ul>
     <li>git fetch "remote" "branch"</li>
       When working with other people's repositories, there are a few basic Git commands to remember:
       <ul>
