@@ -206,10 +206,17 @@ This shows your other branch. Because it contains work that is NOT merged in yet
         <br><font color="green">#</font> Fetches updates made to a remote branch in a repository</br>
       </code>
       </div>
-      <li>git reset HEAD
-      
-      rollback to the latest confirmed version</li>
-
+      <ul>
+      <li><strong>git reset HEAD</strong></li><br />
+       makes your current branch back to point at SOME-COMMIT  <br />
+      <div class="codebox">
+        <code>
+          $ git reset HEAD
+        </code>
+      </div> <br />
+    </ul>
+		
+      <li>gitk -all</li>
       <li>gitk -all
       
       show all branches in the graphical interface and it`s changes</li>
