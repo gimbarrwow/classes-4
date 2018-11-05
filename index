@@ -60,6 +60,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       we create a new branch for every feature we're currently working at. For example,
 
       when we are about to work on login system, before start we should type in console:
+      $ git checkout -b login-system
       <div class="codebox">
         <code>
           <font color="green">$</font> git checkout -b login-system
@@ -102,7 +103,11 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
       <li>git config --global user.email ""</li>
       This command specifies that we're working on git, that we are configuring it and that the configuration that we're making its for every project in the future (that's why --global is being used).<br/>
       If we'd like to use this configuration only for the current project we shouldn't include --global into the command list. User.mail"" specifies that we're making changes into the profile and adding the profile.<br />
-      If quotes are not included the command prints out the current email stored in the profile.
+      If quotes are not included the command prints out the current email stored in the profile.  Setting your Git username for every repository on your computer. 
+$ git config --global user.name ""
+
+Example: 
+$ git config --global user.name "Bogdan"
       <div class="codebox">
         <code>
           <font color="green">$</font> git config --global user.email "kevin.verdhi@gmail.com"
@@ -201,11 +206,13 @@ This shows your other branch. Because it contains work that is NOT merged in yet
         <br><font color="green">#</font> Fetches updates made to a remote branch in a repository</br>
       </code>
       </div>
-      <li>git reset HEAD</li>
+      <li>git reset HEAD
+      
+      rollback to the latest confirmed version</li>
 
-      <li>gitk -all</li>
-
-      <li>git branch "branch" "commit hash"</li>
+      <li>gitk -all
+      
+      show all branches in the graphical interface and it`s changes</li>
 
       <li>git pull "remote" "branch"</li>
        <div class="codebox">
@@ -213,8 +220,19 @@ This shows your other branch. Because it contains work that is NOT merged in yet
         <font color="red">$</font> git reset -HEAD 
       </code>
       </div>
+
+      <li>git branch "branch" "commit hash"
+      
+      create or delete branch and instantly commits it by hashing</li>
+
+      <li>git pull "remote" "branch"
+      extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
+
     </ul>
   </div>
 </div>
 </body>
 </html>
+
+
+
