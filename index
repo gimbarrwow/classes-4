@@ -51,7 +51,7 @@ https://stackoverflow.com/questions/5793214/creating-programming-code-box-on-my-
 </style>
 <body>
 <div id="container">
-  <h1>Git Manual</h1>
+  <h1><u>Git Manual</u></h1>
   <div id="commands">
     <ul>
       <li>git checkout -b "branch"</li>
