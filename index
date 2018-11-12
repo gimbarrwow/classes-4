@@ -266,6 +266,14 @@ This shows your other branch. Because it contains work that is NOT merged in yet
 	<li><a class="links" href="http://learngitbranching.js.org/">Learn Git Branching</a></li>
 	<li><a class="links" href="https://git-scm.com/docs">Git documentation</a></li>
 	</ul>
+	<h2>About git Documentation</h2>
+	<ul>
+	<li><a class="links" href="https://git-scm.com/about">About</a></li>
+	<li><a class="links" href="https://git-scm.com/doc">Git Documentation</a></li>
+	<li><a class="links" href="https://git-scm.com/downloads">Git Downloads Page</a></li>
+	<li><a class="links" href="https://git-scm.com/community">Git Community</a></li>
+	</ul>
+
   </div>
 </div>
 </body>
