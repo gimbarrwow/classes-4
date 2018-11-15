@@ -235,7 +235,7 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li><strong>git reset HEAD</strong></li><br />
        makes your current branch back to point at SOME-COMMIT  <br />
       <div class="codebox">
-        <code>
+        <coe>
           $ git reset HEAD
         </code>
       </div> <br />
@@ -260,6 +260,14 @@ This shows your other branch. Because it contains work that is NOT merged in yet
       <li>git pull "remote" "branch"
       extracts the specified copy of the panels of the elected "branch" and instantly combines it into a local copy. The "remote" repository is the source of the sampling or pushing operation</li>
     </ul>
+<ul>
+<li>git config --global color.ui true - można uzyskać dostęp do tych właśnie zmiennych i zmienia kolor basha</li>
+<li>git commit "filename" - commituje dany plik</li>
+<li>git branch -v - W trybie listy pokaż sha1 i zatwierdź wiersz tematu dla każdej głowy, wraz z relacją do gałęzi źródłowej (jeśli istnieje)</li>
+<li>git push "remote" "branch" - Utwórz lokalny oddział na podstawie innego (zdalnego lub lokalnego) oddziału (za pośrednictwem git branchlub git checkout -b)
+Przekaż lokalny oddział do zdalnego repozytorium (publikuj), ale spraw, aby był on możliwy do śledzenia git pulli git pushzadziała natychmiast.</li>
+<li>git log "branch" --not "branch" - podgląd hisotrii rewizji</li>
+<li>git bisect (start, bad, good, reset) - Ta komenda używa binarnego algorytmu wyszukiwania, aby znaleźć zatwierdzenie w historii twojego projektu</li>
 <h2>Useful links to learn git</h2>
 	<ul>
 	<li><a class="links" href="https://try.github.io/levels/1/challenges/1"> Interactive tutorial for beginners</a></li>
